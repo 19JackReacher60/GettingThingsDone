@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aljaki.gtd3">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/gtd"
+        android:label="GTD"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".NewItemActivity" />
+        <activity android:name=".InBasketActivity" />
+        <activity android:name=".EditItemActivity" />
+        <activity android:name=".TodayActivity" />
+        <activity android:name=".NextActivity" />
+        <activity android:name=".ScheduledActivity" />
+        <activity android:name=".SomedayActivity" />
+        <activity android:name=".LogActivity" />
+        <activity
+            android:name=".InfoActivity"
+            android:label="@string/title_activity_info"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".HomeActivity" />
+    </application>
+
+</manifest>

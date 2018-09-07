@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Adding Action Bar Options Items-->
+    <item
+        android:title="Clear All"
+        android:id="@+id/optionclearall"
+        app:showAsAction="never"/>
+
+</menu>
